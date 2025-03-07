@@ -1,6 +1,6 @@
 # AI Overview Checker
 
-## 📌 Description
+## Description
 
 This script uses the DataForSEO API to check if an AI Overview appears on Google search result pages for a list of keywords. It extracts references from the AI Overview section, including:
 
@@ -16,15 +16,15 @@ This script uses the DataForSEO API to check if an AI Overview appears on Google
 
 and saves the results to a CSV file.
 
-## ✨ Features
+## Features
 
-✅ Fetches Google SERP results via the DataForSEO API.
-✅ Identifies if an AI Overview is present.
-✅ Extract references from the AI Overview.
-✅ Saves results to CSV format.
-✅ Supports batch processing from a keyword list.
+- ✅ Fetches Google SERP results via the DataForSEO API.
+- ✅ Identifies if an AI Overview is present.
+- ✅ Extract references from the AI Overview.
+- ✅ Saves results to CSV format.
+- ✅ Supports batch processing from a keyword list.
 
-## 🔧 Requirements
+## Requirements
 
 Python (3.6+)
 
@@ -40,7 +40,7 @@ Required Python libraries:
 
 - time
 
-## 📥 Installation
+## Installation
 
 Clone this repository:
 
@@ -51,7 +51,7 @@ Install dependencies:
 
 ` pip install requests `
 
-## 🚀 Usage
+## Usage
 
 Set up API credentials in the script:
 
@@ -66,21 +66,21 @@ Run the script:
 
 Output: Results are saved in ai_overview_results.csv.
 
-## 📊 Example Output (CSV Format)
+## Example Output (CSV Format)
 
 Keyword,Source,Domain,URL,Title,Text
 
-## ⚠️ Notes
+## Notes
 
 The script makes a request to DataForSEO for each keyword, so ensure your API plan supports the required number of requests.
 
 A `time.sleep(2)` delay is included to prevent API rate limits.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👤 Author
-[Svet Petkov GitHub] ([https://github.com/youractualusername](https://github.com/svetoslavseo/google-ai-overview-checker))
-[Svet Petkov SEO website ]([https://github.com/youractualusername](https://svetoslav.co.uk/))
+## Author
+[Svet Petkov GitHub] (https://github.com/svetoslavseo/google-ai-overview-checker)
+[Svet Petkov SEO website ](https://github.com/youractualusername](https://svetoslav.co.uk/)
 
